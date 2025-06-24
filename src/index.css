@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #007BFF;
+  background-color: #e0f0ff;
+  color: #007BFF;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.advice{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.count{
+  font-size: 14px;
+  color: #555;
+}
